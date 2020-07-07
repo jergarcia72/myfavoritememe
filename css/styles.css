@@ -1,0 +1,118 @@
+@font-face {
+  font-family:'sm';
+  src: url('SMMaxeville-Regular.otf') format('opentype');
+}
+
+/* Video Styles */
+#video-container{
+  z-index: 1;
+} 
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Button Styles */
+
+.button {
+  cursor: pointer;
+  position: relative;
+ background-color: #fff;
+ border: 1px solid #3582E5;
+ border-radius: 20px;
+ padding: 8px 10px;
+ color: #3582E5;
+ -webkit-box-shadow: 0px 0px 25px -2px rgba(53,130,229,1);
+ -moz-box-shadow: 0px 0px 25px -2px rgba(53,130,229,1);
+ box-shadow: 0px 0px 25px -2px rgba(53,130,229,1);
+}
+
+.button:hover {
+  background-color: rgb(123, 180, 255);
+  color: #fff;
+  transition:all 0.3s ease;
+}
+
+.button:active {
+  background-color: #3582E5;
+  color: #fff;
+  transition:all 0.3s ease;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+.clicked {
+  background-color: #3582E5;
+  color: #fff;
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.sound {
+  margin-right: 30px;
+}
+
+/* Button Styles END */
+
+
+/* Positioning */
+
+.btnsposition {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+}
+
+.soundbutton {
+  float: left;
+}
+
+.nbrbuttons {
+  float: right;
+}
+
+.info {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+
+.date {
+  position: fixed;
+  left: 18px;
+  bottom: 10px;
+  color: rgb(15, 15, 15);
+}
+
+.source {
+  position: fixed;
+  right: 18px;
+  bottom: 10px;
+  color: rgb(15, 15, 15);
+}
+
+
+/* Type */
+
+p {
+  font-family: sm;
+  font-size: 18px;
+  margin: 0;
+}
+
+a:visited {
+  color: rgb(15, 15, 15);
+}
+
+
+
+

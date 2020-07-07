@@ -2,32 +2,69 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css?v=1.0">
+        
     </head>
+    
     <body>
-        <!-- The video -->
-        <div id="video-container">
-            <video autoplay muted controls loop id="myVideo">
-                <source src="shrekagility.mp4" type="video/mp4">
-            </video>
-            <button id="mutebtn2">Mute</button>
-            
 
+        
+        <!-- The video -->
+        
+        <video autoplay muted id="myVideo" loop>
+            <source src="shrekagility.mp4" type="video/mp4">
+        </video>
+        <div id="audio-control" class="muted">Unmute</div>
+
+
+
+
+        <!-- VID OPTION BUTTONS -->
+        <div class="btnsposition">
+            <div class="soundbutton">
+                    <button class="button sound"> <p>sound is OFF</p></button>
+                
+            </div>
+            
+            <div class="nbrbuttons">
+                <button onclick="window.location.href='#';" class="button"><p>1</p></button>
+                <button onclick="window.location.href='#';" class="button"><p>2</p></button>
+                <button onclick="window.location.href='#';" class="button"><p>3</p></button>
+                <button onclick="window.location.href='#';" class="button"><p>4</p></button>  
+            </div>
+            
         </div>
+
+        <!-- INFO BUTTON -->
+        <div class="info">
+            <button class="button"><p>info</p></button>
+        </div>
+
+
+        <!-- DATE Collected -->
+        <div class="date">
+            <p>Date collected: January 5, 2020</p>
+        </div>
+
+
+        <!-- LINK TO ORIGINAL -->
+        <div class="source">
+            <a href="#" target="_blank"><p>source</p></a>
+        </div>
+
+
+
+
+   
         
 
-      
-      <!-- Optional: some overlay text to describe the video -->
-      <div class="content">
-            
- 
-      </div>
-      
 
 
 
+
+        <script src="script.js"></script>
     </body>
-    <script src="script.js"></script>
+    
 </html>
 
 
